@@ -1,0 +1,23 @@
+@media (max-width:425px) {
+    .container {
+        flex-direction: column;
+    }
+    .expOne {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .duration {
+        flex-basis: 4rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .skill {
+        flex-direction: column;
+        align-items: start;
+    }
+    .skill h3 {
+        flex-basis: 2rem;
+        margin-top: 1rem;
+    }
+}

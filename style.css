@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+body {
+    background-color: lightblue;
+}
+.container {
+    display: flex;
+    max-width: 100rem;
+    margin: 50px auto;
+}
+.cv-left {
+    flex-basis: 33rem;
+    background: #013147;
+    color: #fff;
+    padding: 2.5rem;
+}
+.cv-right {
+    flex-basis: 77rem;
+    background: #fff;
+    color: #000;
+}
+.profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid #1e495c;
+}
+.pro-pic {
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    border-radius: 12rem;
+    border: .25rem solid #1e495c;
+    overflow: hidden;
+}
+.pro-pic img {
+    width: 100%;
+    height: 100%;
+}
+.profile h1 {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: .12rem;
+}
+.profile h3 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #cac7c7;
+    letter-spacing: .12rem;
+} 
+.contactInfo {
+    margin: 2rem 0;
+}
+.contactInfo h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.contactInfo ul li {
+    list-style-type: none;
+    margin-bottom: .5rem;
+}
+.contactInfo ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: color .2s;
+}
+.contactInfo ul li a:hover {
+    color: #9c9696;
+}
+.contactInfo ul li i {
+    color: #9c9696;
+    font-size: 1.7rem;
+    margin-right: 2rem;
+}
+
+.eduacation h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.eduacation h6 {
+    font-size: 1.2rem;
+    color: #9c9696;
+    margin: 1.5rem 0 .5rem 0;
+}
+.eduacation p {
+    font-size: 1.3rem;
+}
+
+.language h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.language h5 {
+    font-size: 1.4rem;
+    letter-spacing: .18rem;
+}
+.language .level {
+    position: relative;
+    width: 100%;
+    height: .6rem;
+    background: #081921;
+    display: block;
+    margin: .5rem 0;
+}
+.language .level div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+/* Right side ==== */
+.cv-right {
+    padding: 2.5rem;
+}
+.profileIntro {
+    border-bottom: .1rem solid #9c9696;
+}
+.profileIntro h2 {
+    color: #013147;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.profileIntro p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.profileIntro p:last-child{
+    margin-bottom: 3rem;
+}
+.experience {
+    margin-bottom: 3rem;
+    border-bottom:.1rem solid #9c9696 ;
+}
+.experience > h2 {
+    color: #013147;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+.expOne {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.expOne:last-child {
+    margin-bottom: 3rem;
+}
+.expOne h2 {
+    color: #03a9f4;
+    text-transform: uppercase;
+    font-size: 1.4rem;    
+}
+.duration {
+    flex-basis: 25rem;
+}
+.duration h6 {
+    color: #1e495c;
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.detail p {
+    font-size: 1.4rem;
+}
+
+/* === Professional Skills ==== */
+.proSkills {
+    border-bottom: .1rem solid #9c9696;
+}
+.proSkills > h2 {
+    color: #013147;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+.skill {
+    display: flex;
+    align-items: center;
+}
+.skill:last-child{
+    margin-bottom:3rem ;
+}
+.skill h3 {
+    color: #1e495c;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    flex-basis: 25rem;
+}
+.skill .level {
+   position: relative;
+    width: 100%;
+    height: 1rem;
+    background: #f0f0f0;
+}
+.skill .level div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+/* ==== Interest ==== */
+.interest h2 {
+    color: #013147;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin: 4rem 0 2rem 0;
+}
+.interest ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.2rem;
+    font-size: 1.4rem;
+    margin-bottom: .6rem;
+}
+.interest ul li i {
+    color: #9c9696;
+}
+blockquote {
+    font-size: 2rem;
+    color: #727a7e;
+    text-align: center;
+    margin-top: 4rem;
+}
+blockquote i {
+    font-size: 3rem;
+    font-weight: bold;
+}
